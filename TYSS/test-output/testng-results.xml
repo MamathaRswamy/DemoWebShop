@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6516" started-at="2021-09-13T12:33:42 IST" finished-at="2021-09-13T12:33:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6516" started-at="2021-09-13T12:33:42 IST" finished-at="2021-09-13T12:33:49 IST">
+      <class name="loginModule.TS_03Test">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:loginModule.TS_03Test@4232c52b]" name="LaunchBrowser" is-config="true" duration-ms="4362" started-at="2021-09-13T12:33:42 IST" finished-at="2021-09-13T12:33:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="Validate_the_user_login_with_the_valid_email_and_password()[pri:0, instance:loginModule.TS_03Test@4232c52b]" name="Validate_the_user_login_with_the_valid_email_and_password" duration-ms="1432" started-at="2021-09-13T12:33:46 IST" finished-at="2021-09-13T12:33:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_the_user_login_with_the_valid_email_and_password -->
+        <test-method status="PASS" signature="AfterExecution()[pri:0, instance:loginModule.TS_03Test@4232c52b]" name="AfterExecution" is-config="true" duration-ms="689" started-at="2021-09-13T12:33:48 IST" finished-at="2021-09-13T12:33:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterExecution -->
+      </class> <!-- loginModule.TS_03Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
