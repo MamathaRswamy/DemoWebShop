@@ -31,7 +31,6 @@ public void Validate_the_user_registration_with_valid_data() {
 
 		registerpage.getRegisterButton().click();
 		
-		registerpage.getLogOutLink().click();
 
 }
 }

@@ -33,7 +33,6 @@ public class TS_02Test extends BaseTest {
 
 		registerpage.getRegisterButton().click();
 
-		registerpage.getLogOutLink().click();
 
 	}
 }
