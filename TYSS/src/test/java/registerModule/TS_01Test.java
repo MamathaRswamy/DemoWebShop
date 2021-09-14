@@ -1,5 +1,6 @@
 package registerModule;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -31,6 +32,7 @@ public void Validate_the_user_registration_with_valid_data() {
 
 		registerpage.getRegisterButton().click();
 		
+		Reporter.log("TS 01 is succesfull",true);
 
 }
 }

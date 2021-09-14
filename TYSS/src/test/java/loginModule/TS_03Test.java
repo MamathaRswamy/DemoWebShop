@@ -1,5 +1,6 @@
 package loginModule;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -19,6 +20,9 @@ public class TS_03Test extends BaseTest {
 		loginpage.getPasswordTextField().sendKeys("Mamatha@143");
 		
 		loginpage.getLoginButton().click();
+		
+		Reporter.log("TS 03 is succesfull",true);
+		
 	}
 
 }

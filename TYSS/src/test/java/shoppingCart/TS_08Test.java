@@ -9,6 +9,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -39,7 +40,10 @@ public class TS_08Test extends BaseTest {
 		Robot robot=new Robot();
 		Thread.sleep(2000);
 		robot.keyPress(KeyEvent.VK_ENTER);
+				
 		}
+		Reporter.log("TS 08 is succesfull",true);
+
 	}
 }
 

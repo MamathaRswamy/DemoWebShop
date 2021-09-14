@@ -1,5 +1,6 @@
 package enquiry;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -13,5 +14,7 @@ public void validate_the_user_can_contact_customer_care_for_enquiry() throws Int
 		shoppingCart.getEnquiryTextField().sendKeys("i cant able to Find Remove element From Cart");
 		Thread.sleep(2000);
 		shoppingCart.getSubmitButton().click();
+		
+		Reporter.log("TS 11 is succesfull",true);
 }
 }

@@ -1,5 +1,6 @@
 package registerModule;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -33,6 +34,6 @@ public class TS_02Test extends BaseTest {
 
 		registerpage.getRegisterButton().click();
 
-
+		Reporter.log("TS 02 is succesfull",true);
 	}
 }

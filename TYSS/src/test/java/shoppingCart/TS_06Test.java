@@ -1,5 +1,6 @@
 package shoppingCart;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -17,6 +18,7 @@ public class TS_06Test extends BaseTest{
 		Thread.sleep(2000);
 		homepage.getHealthbookaddToCartButton().click();
 
+		Reporter.log("TS 06 is succesfull",true);
 
 	}
 }

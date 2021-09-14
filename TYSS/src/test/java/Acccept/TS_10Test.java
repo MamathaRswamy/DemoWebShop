@@ -2,6 +2,7 @@ package Acccept;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -31,5 +32,7 @@ public class TS_10Test extends BaseTest {
 		Thread.sleep(2000);
 		shoppingCart.getCheckOutButton().click();
 		Thread.sleep(2000);
+		Reporter.log("TS 10 is succesfull",true);
+		
 }
 }

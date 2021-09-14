@@ -2,6 +2,7 @@ package billingModule;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -27,5 +28,7 @@ public class TS_09Test extends BaseTest{
 		select.selectByVisibleText("India");
 		Thread.sleep(2000);
 		shoppingCart.getEstimateShippingButton().click();
+		
+		Reporter.log("TS 09 is succesfull",true);
 }
 }

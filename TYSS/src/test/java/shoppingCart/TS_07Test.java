@@ -4,6 +4,8 @@ package shoppingCart;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
+
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genericLibrary.BaseTest;
@@ -22,5 +24,7 @@ public class TS_07Test extends BaseTest {
 		Shoppingcartpage.getRemoveFromCartCheckBox().click();
 		Robot robot=new Robot();
 		robot.keyPress(KeyEvent.VK_ENTER);
+		
+		Reporter.log("TS 07 is succesfull",true);
 	}
 }
